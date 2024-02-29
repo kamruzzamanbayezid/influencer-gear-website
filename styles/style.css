@@ -101,3 +101,16 @@ nav>ul>li>a {
       align-items: center;
       border: none;
 }
+
+
+/* Sponsors related styles */
+.sponsors-container{ 
+      max-width: 1110px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 70px;
+      border: 1px 0 1px red;
+}

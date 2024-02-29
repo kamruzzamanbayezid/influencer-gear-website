@@ -1,5 +1,8 @@
 /* For tablet device */
 @media screen and (max-width: 992px) {
+      body {
+            padding: 16px;
+      }
 
       /* navbar */
       nav {
@@ -11,7 +14,6 @@
       /* banner section  */
       .banner-container {
             flex-direction: column-reverse;
-            padding: 16px;
       }
 
       .banner-content {
@@ -35,10 +37,20 @@
             font-size: 3rem;
       }
 
+      /* Sponsors section */
+      .sponsors-container {
+            justify-content: center;
+            gap: 50px;
+      }
+
 }
 
 /* For mobile device */
 @media screen and (max-width: 576px) {
+
+      body {
+            padding: 16px;
+      }
 
       /* navbar */
       nav {
@@ -55,7 +67,6 @@
       /* banner section  */
       .banner-container {
             flex-direction: column-reverse;
-            padding: 16px;
       }
 
       .banner-content {
@@ -77,6 +88,13 @@
 
       .banner-title {
             font-size: 2rem;
+      }
+
+
+      /* Sponsors section */
+      .sponsors-container {
+            justify-content: center;
+            gap: 20px;
       }
 
 }
