@@ -235,3 +235,24 @@ nav>ul>li>a {
       font-weight: 700;
       margin-bottom: 16px;
 }
+
+
+/* Footer section */
+.footer-container {
+      background-color: #0A0826;
+      text-align: center;
+      padding: 50px 0;
+}
+
+.footer-title {
+      color: #FFF;
+      font-size: 1.5rem;
+      font-weight: 700;
+}
+
+.footer-description,
+.footer-para {
+      color: var(--Text-Gray-300, #D9DBE1);
+      font-weight: 700;
+      font-size: 14px;
+}
